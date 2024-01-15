@@ -2,8 +2,10 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import ReactGA from 'react-ga';
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
+import Education from "./pages/Education/Education";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills/Skills";
+import Project01 from "./pages/Summaries/Summary01/Content.js";
 import Blogs from "./pages/Blogs"
 import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer/Footer";
@@ -22,18 +24,18 @@ function App() {
         <Router>
             <div className="App">
                 <NavBar/>
-                <br />
                 <ScrollToTop/>
                 <Routes>
                     <Route path={"/portfolio"} exact element={<Home/>}/>
+                    <Route path={"/education"} exact element={<Education/>}/>
                     <Route path={"/projects"} exact element={<Projects/>}/>
                     <Route path={"/blogs"} exact element={<Blogs/>}/>
                     <Route path={"/skills"} exact element={<Skills/>}/>
+                    <Route path={"/project01"}  element={<Project01/>}/>
                 </Routes>
                 <Footer/>
             </div>
         </Router>
-
     )
 
 }

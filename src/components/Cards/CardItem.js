@@ -9,7 +9,7 @@ const CardItem = (props) => {
         <div className={"card"} key={props.item.id}>
             <a style={{display: "flex"}}
                href={props.item.links[0].url}
-               target={"_blank"}
+               target={"_self"}
                rel={"noopener noreferrer"}>
             <div style={{backgroundImage: "url('"+props.item.image+"')"}} className="card__img" alt={props.item.title}/>
             </a>

@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 import {AiFillGithub} from "react-icons/ai";
 import {SiMedium} from "react-icons/si";
-import fastapiSklearn from "../images/fastapi_sklearn.png"
 
 const blogConfig = [
     {
@@ -80,7 +79,7 @@ const blogConfig = [
                 icon: <AiFillGithub/>
             }
         ],
-        image: fastapiSklearn,
+        image: "",
         description: "Get your model machine learning model to production as a containerized API.",
         target: "_blank"
     },

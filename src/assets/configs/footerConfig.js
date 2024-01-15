@@ -1,30 +1,29 @@
-import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
-import {BsMedium} from "react-icons/bs";
+//import {AiFillGithub} from "react-icons/ai";
+import {FaLinkedinIn, FaMailchimp} from "react-icons/fa";
+//import {BsMedium} from "react-icons/bs";
 import React from "react";
+import { BiCopyright, BiMailSend } from "react-icons/bi";
+import { SiMaildotru } from "react-icons/si";
 
 const footerConfig = {
     icons: [
         {
-            id: "footer-0",
-            url: "https://github.com/rodrigo-arenas",
-            className: "social-icon",
-            target: "_blank",
-            icon: <AiFillGithub size={50}/>
-        },
-        {
-            id: "footer-1",
-            url: "https://linkedin.com/in/rodrigo-arenas-gomez",
+            url: "https://linkedin.com/in/xavier-trentin",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
         },
         {
-            id: "footer-2",
-            url: "https://rodrigo-arenas.medium.com",
+          url: "mailto://xavier.trentin@pm.me",
+          className: "social-icon",
+          target: "_blank",
+          icon: <SiMaildotru size={50}/>
+        },
+        {
+            url: "https://github.com/rodrigo-arenas/portfolio",
             className: "social-icon",
             target: "_blank",
-            icon: <BsMedium size={50}/>
+            icon: <BiCopyright size={50}/>
         }
     ]
 }

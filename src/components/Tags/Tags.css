@@ -2,7 +2,7 @@
     margin: 0.5rem 0 0.5rem 0;
 }
 
-.tag {
+.tags .tag {
     font-size: 11px !important;
     text-align: left !important;
     padding: 5px 8px 5px 8px !important;
@@ -10,4 +10,7 @@
     font-weight: lighter !important;
     margin: 0 6px 6px 2px;
     letter-spacing: 1px;
+    color: #1e3d59;
+    background-color: #ffc13b !important;
+
 }

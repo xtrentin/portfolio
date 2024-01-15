@@ -1,78 +1,65 @@
-import React from 'react'
-import {BsClipboardData} from "react-icons/bs";
-import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
-import {FaMobileAlt} from "react-icons/fa";
-import { BiRocket } from "react-icons/bi";
+import React from 'react';
+import {BsGraphUp} from "react-icons/bs";
+import {DiCode} from "react-icons/di";
+import {MdVerified, MdDialerSip} from "react-icons/md";
 
 const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            <strong className="main-name">
+            Xavier Trentin
+            </strong>
         </h1>,
     titles: [
-        "A Data Scientist",
-        "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "Manager Expérimenté",
+        "Aspirant Data Scientist"
     ],
     about: {
-        start: "I've been working for over seven years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+        start: "Passionné par les technologies avec une solide expérience 💪 en encadrement d'équipes de développement et de validation. " +
+            "J'ai récemment élargi mes horizons en me formant intensivement dans le domaine de l'IA et de la Data Science. ",
+        exit: "A 52 ans, ma transition vers ce domaine résulte de la fusion parfaite de mes compétences issues du monde du "+
+            "développement, de mon cursus initial en mathématiques et de cette curiosité qui me pousse à explorer l'inconnu."
     },
     workTimeline: [
         {
-            id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
-            icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
-        },
-        {
-            id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            id: "work3",
+            title: "Etudiant Ingénieur en IA",
+            company: "Openclassrooms",
+            description: "Projets professionnalisants tutorés par un spécialiste du domaine.",
+            date: "En cours",
+            icon: <BsGraphUp/>,
+            tags: ["python","data analyse", "machine learning", "deep learning", "git", "docker", "Google Cloud Platform","MLFlow"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            title: "Responsable de Service Validation",
+            company: "SFR",
+            description: "Management d'une équipe de 5 collaborateurs en charge de la validation des logiciels des boxes. "+
+              "Internet destinées au Grand Public et aux Entreprises.",
+            date: "2020-2023",
+            icon: <MdVerified />,
+            tags: ["management de proximité", "linux", "agile", "jira", "xray", "node.js", "git"]
         },
         {
-            id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+          id: "work-1",
+          title: "Responsable de Service Développement",
+          company: "SFR",
+            description: "Management d'une équipe de 5 à 10 collaborateurs en charge du développement et de l'intégration "+
+             "de briques logicielles des boxes Internet destinées essentiellement aux Entreprises.",
+            date: "2014-2020",
+            icon: <DiCode/>,
+            tags: ["management de proximité", "linux", "protocoles réseaux","sqlite", "jira", "confluence", "git"]
         },
         {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+          id: "work-0",
+          title: "Responsable de Projets",
+          company: "Efixo",
+            description: "Management d'une équipe de 5 à 10 collaborateurs en charge du développement et de l'intégration"+
+             "des briques logicielles de boxes Internet destinées aux PME. J'y ai notamment acquis mon expertise en téléphonie sur IP.",
+            date: "2006-2014",
+            icon: <MdDialerSip />,
+            tags: ["management de projet", "linux", "voip", "sip", "c", "python", "cgi", "subversion"]
         }
     ]
 }
