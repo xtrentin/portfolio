@@ -5,7 +5,7 @@ import {
     AiFillHome,
     AiOutlineGithub
 } from "react-icons/ai";
-import { FaSchool } from "react-icons/fa";
+//import { FaSchool } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 
 //import {BsMedium} from "react-icons/bs";

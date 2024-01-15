@@ -1,8 +1,10 @@
 //import {AiFillGithub} from "react-icons/ai";
-import {FaLinkedinIn, FaMailchimp} from "react-icons/fa";
+//import {FaLinkedinIn, FaMailchimp} from "react-icons/fa";
+import {FaLinkedinIn} from "react-icons/fa";
 //import {BsMedium} from "react-icons/bs";
 import React from "react";
-import { BiCopyright, BiMailSend } from "react-icons/bi";
+//import { BiCopyright, BiMailSend } from "react-icons/bi";
+import { BiCopyright} from "react-icons/bi";
 import { SiMaildotru } from "react-icons/si";
 
 const footerConfig = {
